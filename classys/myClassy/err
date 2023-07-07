@@ -1,0 +1,26 @@
+        <?php 
+    if($err)
+{
+
+  
+    ?>
+      <div class="alert alert-danger" role="alert">
+  <?php echo $errMsg ?>
+</div>
+<?php 
+}  
+
+?>
+  <?php 
+    if($succ)
+{
+
+  
+    ?>
+      <div class="alert alert-success" role="alert">
+  <?php echo $succMsg ?>
+</div>
+<?php 
+}  
+
+?>
